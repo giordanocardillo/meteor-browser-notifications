@@ -13,9 +13,3 @@ Package.onUse(function(api) {
   api.export('BrowserNotifications');
   api.addFiles('browser-notifications.coffee');
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('mpaddock:browser-notifications');
-  api.addFiles('browser-notifications-tests.js');
-});
