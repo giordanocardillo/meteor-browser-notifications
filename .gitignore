@@ -3,6 +3,9 @@
 
 *.iml
 
+.versions
+meteor-browser-notifications
+
 ## Directory-based project format:
 .idea/
 # if you remove the above rule, at least ignore the following:
