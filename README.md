@@ -15,7 +15,8 @@ On the server, BrowserNotifications.sendNotification takes an object of options:
 BrowserNotifications.sendNotification({
   userId: a12345678,
   title: "Notification title",
-  body: "Notification body"
+  body: "Notification body",
+  icon: "Icon URL"
 });
 ```
 

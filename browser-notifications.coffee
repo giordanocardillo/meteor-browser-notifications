@@ -6,6 +6,7 @@ if Meteor.isServer
       userId: opts.userId
       title: opts.title
       body: opts.body
+      icon: opts.icon
 
     #60 second window for the browser to receive and present the notification.
     Meteor.setTimeout () ->
@@ -28,5 +29,6 @@ if Meteor.isClient
     added: (doc) ->
       Notification.requestPermission (p) ->
         new Notification doc.title,
-          body: doc.body
+          body: doc.body,
+          icon: doc.icon
       BrowserNotifications.remove(doc._id)

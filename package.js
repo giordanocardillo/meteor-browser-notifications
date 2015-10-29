@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'mpaddock:browser-notifications',
-  version: '0.1.0',
+  name: 'giordanocardillo:browser-notifications',
+  version: '1.0.0',
   summary: 'Send browser notifications to clients from a Meteor server.',
-  git: 'https://github.com/mpaddock/meteor-browser-notifications',
+  git: 'https://github.com/giordanocardillo/meteor-browser-notifications',
   documentation: 'README.md'
 });
 
